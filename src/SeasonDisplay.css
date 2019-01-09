@@ -33,3 +33,8 @@
 .summer{
     background-color: orange;
 }
+
+.clock{
+    position: absolute;
+    right: 10px;
+}

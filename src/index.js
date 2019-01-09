@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import SeasonDisplay from './SeasonDisplay';
 import Loading from './Loading';
+
 class App extends React.Component{
 
     state = {
         lat: null,
         errorMessage: ''
     }
-
+    
     //WE HAVE TO DEFINE render(). IF NO, WE GET SOME ERROR
     render(){
         return (
